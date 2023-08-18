@@ -1175,6 +1175,8 @@ gateway:
   replicas: 1
   # -- Enable logging of 2xx and 3xx HTTP requests
   verboseLogging: true
+  # -- Container port
+  containerPort: 8080
   autoscaling:
     # -- Enable autoscaling for the gateway
     enabled: false
